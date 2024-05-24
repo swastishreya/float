@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>attention_maps_1</title>
+  </head>
+  <body>
+    <h2></h2>
+    <h2>Attention Maps Comparison Videos</h2>
+    <table border="1">
+      <tr>
+        <td>
+          <p style="width: 64px; word-wrap: break-word;">
+            <h3>Ns_1 + Prompt: &quot;a woman in yellow floral dress&quot;</h3>
+          </p>
+        </td>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+          <p halign="center">
+            <h3>Attention Maps</h3><br>
+            <!--<a href="videos/41_attn_before.mp4"> -->
+              <video autoplay="autoplay" controls="controls" loop="loop" muted="muted" src="videos/41_attn_before.mp4" style="width:256px"></video>
+            <!-- </a>-->
+          </p>
+        </td>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+          <p halign="center">
+            <h3>FeatInControlNet</h3><br>
+              <video autoplay="autoplay" controls="controls" loop="loop" muted="muted" src="videos/00041_10_ap_pr30_seed37.mp4" style="width:256px"></video>
+            </p>
+        </td>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+          <p halign="center">
+            <h3>Modified Attention Maps</h3><br>
+            
+              <video autoplay="autoplay" controls="controls" loop="loop" muted="muted" src="videos/41_attn_after.mp4" style="width:256px"></video>
+            
+          </p>
+        </td>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+          <p halign="center">
+            <h3>FloAtControlNet</h3><br>
+            
+              <video autoplay="autoplay" controls="controls" loop="loop" muted="muted" src="videos/00041_10_ap_pr30_seed37_mask_attn_alpha0.75.mp4" style="width:256px"></video>
+            
+          </p>
+        </td>
+      </tr>
+    </table>
+    <table border="1">
+      <tr>
+        <td>
+          <p style="width: 64px; word-wrap: break-word;">
+            <h3>Ns_2 + Prompt: &quot;a man in netted pants&quot;</h3>
+          </p>
+        </td>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+          <p halign="center">
+            <h3>Attention Maps</h3><br>
+            
+              <video autoplay="autoplay" controls="controls" loop="loop" muted="muted" src="videos/85_attn_before.mp4" style="width:256px"></video>
+            
+          </p>
+        </td>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+          <p halign="center">
+            <h3>FeatInControlNet</h3><br>
+            
+              <video autoplay="autoplay" controls="controls" loop="loop" muted="muted" src="videos/00085_10_ap_pr20_seed13.mp4" style="width:256px"></video>
+           
+          </p>
+        </td>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+          <p halign="center">
+            <h3>Modified Attention Maps</h3><br>
+            
+              <video autoplay="autoplay" controls="controls" loop="loop" muted="muted" src="videos/85_attn_after.mp4" style="width:256px"></video>
+            
+          </p>
+        </td>
+        <td halign="center" style="word-wrap: break-word;" valign="top">
+          <p halign="center">
+            <h3>FloAtControlNet</h3><br>
+            
+              <video autoplay="autoplay" controls="controls" loop="loop" muted="muted" src="videos/00085_10_ap_pr20_seed13_mask_attn_alpha0.75.mp4" style="width:256px"></video>
+            
+          </p>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
